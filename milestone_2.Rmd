@@ -1,0 +1,21 @@
+---
+title: 'Milestone #2'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(foreign)
+```
+
+```{r reading}
+
+comply <- read.dta("comply.dta")
+
+total_a982 <- sum(comply$a982, na.rm = TRUE)
+
+```
+
+The total of a982 is `r total_a982`
