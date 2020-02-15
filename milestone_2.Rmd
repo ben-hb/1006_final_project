@@ -18,4 +18,6 @@ total_a982 <- sum(comply$a982, na.rm = TRUE)
 
 ```
 
-The total of a982 is `r total_a982`
+The total of a982 is `r total_a982`. 
+
+[Git Repo](https://github.com/ben-hb/1006_final_project)
